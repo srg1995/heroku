@@ -45,7 +45,7 @@ public class UserController {
 	
 	@GetMapping({"/","/login"})
 	public String index() {
-		return "index";
+		return "holaque tañ";
 	}
 	
 	@GetMapping("/signup")
